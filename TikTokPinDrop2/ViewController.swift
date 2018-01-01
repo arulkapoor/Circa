@@ -13,8 +13,8 @@ import AVFoundation
 
 class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDelegate {
 
-    @IBOutlet var lbl: UILabel!
     
+    @IBOutlet var lbl: UILabel!
     @IBOutlet var searchBarMap: UISearchBar!
     var x = "2"
     var i = 0
@@ -22,20 +22,24 @@ class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDe
         let annotation = MKPointAnnotation()
     var audioPlayer = AVAudioPlayer()
     
+    @IBAction func dSlider(_ sender: UISlider) {
+        lbl.text="Sound alarm when "
+        lbl.text!+=String((100*Double(sender.value).rounded())/100)
+        x=String((100*Double(sender.value).rounded())/100)
+        lbl.text!+=" mi away."
+    }
+    
     
     @IBOutlet var STOP: UIButton!
     
     @IBAction func PARA2(_ sender: UIButton) {
         STOP.isHidden=true
         audioPlayer.stop()
+        STOP.layer.cornerRadius = 10
+        STOP.clipsToBounds = true
     }
     
    
-    @IBAction func distSlider(_ sender: UISlider) {
-        lbl.text = String((100*Double(sender.value).rounded())/100)
-        x=String((100*Double(sender.value).rounded())/100)
-        lbl.text!+=" mi away"
-    }
     
         
     
