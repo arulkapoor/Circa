@@ -26,6 +26,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>Privacy - When In Use Usage Description</key>
+	<string>Circa</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Click ok for the app to track your location!</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

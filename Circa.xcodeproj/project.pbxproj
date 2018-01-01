@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A51B3421FF8702700DDA26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51B33E1FF866AB00DDA26B /* LaunchScreen.storyboard */; };
+		2A51B3431FF8702C00DDA26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51B3401FF866AB00DDA26B /* Main.storyboard */; };
+		2A8087061FF9DF0900A2F2C6 /* TikTokPinDrop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC421F11FCF800DFFDC7 /* TikTokPinDrop2Tests.swift */; };
+		2A8087081FF9DF1000A2F2C6 /* TikTokPinDrop2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC4D1F11FCF800DFFDC7 /* TikTokPinDrop2UITests.swift */; };
 		2A91DC2E1F11FCF800DFFDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC2D1F11FCF800DFFDC7 /* AppDelegate.swift */; };
 		2A91DC301F11FCF800DFFDC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC2F1F11FCF800DFFDC7 /* ViewController.swift */; };
-		2A91DC331F11FCF800DFFDC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A91DC311F11FCF800DFFDC7 /* Main.storyboard */; };
 		2A91DC351F11FCF800DFFDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A91DC341F11FCF800DFFDC7 /* Assets.xcassets */; };
-		2A91DC381F11FCF800DFFDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A91DC361F11FCF800DFFDC7 /* LaunchScreen.storyboard */; };
-		2A91DC431F11FCF800DFFDC7 /* TikTokPinDrop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC421F11FCF800DFFDC7 /* TikTokPinDrop2Tests.swift */; };
-		2A91DC4E1F11FCF800DFFDC7 /* TikTokPinDrop2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC4D1F11FCF800DFFDC7 /* TikTokPinDrop2UITests.swift */; };
+		2A91DC5C1F11FE5D00DFFDC7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A91DC5B1F11FE5D00DFFDC7 /* MapKit.framework */; };
+		2A91DC5E1F12074000DFFDC7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A91DC5D1F12074000DFFDC7 /* CoreLocation.framework */; };
+		2AED204F1F1A958D00ADA6BE /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AED204E1F1A958D00ADA6BE /* 1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A91DC2A1F11FCF800DFFDC7 /* TikTokPinDrop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokPinDrop2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A51B33F1FF866AB00DDA26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TikTokPinDrop2/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A51B3411FF866AB00DDA26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TikTokPinDrop2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A91DC2A1F11FCF800DFFDC7 /* Circa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A91DC2D1F11FCF800DFFDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A91DC2F1F11FCF800DFFDC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A91DC321F11FCF800DFFDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A91DC341F11FCF800DFFDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A91DC371F11FCF800DFFDC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A91DC391F11FCF800DFFDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A91DC3E1F11FCF800DFFDC7 /* TikTokPinDrop2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokPinDrop2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A91DC3E1F11FCF800DFFDC7 /* Circa.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Circa.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A91DC421F11FCF800DFFDC7 /* TikTokPinDrop2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokPinDrop2Tests.swift; sourceTree = "<group>"; };
 		2A91DC441F11FCF800DFFDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A91DC491F11FCF800DFFDC7 /* TikTokPinDrop2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokPinDrop2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A91DC491F11FCF800DFFDC7 /* Circa.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Circa.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A91DC4D1F11FCF800DFFDC7 /* TikTokPinDrop2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokPinDrop2UITests.swift; sourceTree = "<group>"; };
 		2A91DC4F1F11FCF800DFFDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A91DC5B1F11FE5D00DFFDC7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2A91DC5D1F12074000DFFDC7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2AED204E1F1A958D00ADA6BE /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1.mp3; path = ../../../Downloads/1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A91DC5E1F12074000DFFDC7 /* CoreLocation.framework in Frameworks */,
+				2A91DC5C1F11FE5D00DFFDC7 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +85,9 @@
 		2A91DC211F11FCF800DFFDC7 = {
 			isa = PBXGroup;
 			children = (
-				2A91DC2C1F11FCF800DFFDC7 /* TikTokPinDrop2 */,
+				2A91DC5D1F12074000DFFDC7 /* CoreLocation.framework */,
+				2A91DC5B1F11FE5D00DFFDC7 /* MapKit.framework */,
+				2A91DC2C1F11FCF800DFFDC7 /* Circa */,
 				2A91DC411F11FCF800DFFDC7 /* TikTokPinDrop2Tests */,
 				2A91DC4C1F11FCF800DFFDC7 /* TikTokPinDrop2UITests */,
 				2A91DC2B1F11FCF800DFFDC7 /* Products */,
@@ -87,23 +97,25 @@
 		2A91DC2B1F11FCF800DFFDC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A91DC2A1F11FCF800DFFDC7 /* TikTokPinDrop2.app */,
-				2A91DC3E1F11FCF800DFFDC7 /* TikTokPinDrop2Tests.xctest */,
-				2A91DC491F11FCF800DFFDC7 /* TikTokPinDrop2UITests.xctest */,
+				2A91DC2A1F11FCF800DFFDC7 /* Circa.app */,
+				2A91DC3E1F11FCF800DFFDC7 /* Circa.xctest */,
+				2A91DC491F11FCF800DFFDC7 /* Circa.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A91DC2C1F11FCF800DFFDC7 /* TikTokPinDrop2 */ = {
+		2A91DC2C1F11FCF800DFFDC7 /* Circa */ = {
 			isa = PBXGroup;
 			children = (
 				2A91DC2D1F11FCF800DFFDC7 /* AppDelegate.swift */,
 				2A91DC2F1F11FCF800DFFDC7 /* ViewController.swift */,
-				2A91DC311F11FCF800DFFDC7 /* Main.storyboard */,
+				2A51B33E1FF866AB00DDA26B /* LaunchScreen.storyboard */,
+				2A51B3401FF866AB00DDA26B /* Main.storyboard */,
 				2A91DC341F11FCF800DFFDC7 /* Assets.xcassets */,
-				2A91DC361F11FCF800DFFDC7 /* LaunchScreen.storyboard */,
+				2AED204E1F1A958D00ADA6BE /* 1.mp3 */,
 				2A91DC391F11FCF800DFFDC7 /* Info.plist */,
 			);
+			name = Circa;
 			path = TikTokPinDrop2;
 			sourceTree = "<group>";
 		};
@@ -128,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A91DC291F11FCF800DFFDC7 /* TikTokPinDrop2 */ = {
+		2A91DC291F11FCF800DFFDC7 /* Circa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A91DC521F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "TikTokPinDrop2" */;
+			buildConfigurationList = 2A91DC521F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "Circa" */;
 			buildPhases = (
 				2A91DC261F11FCF800DFFDC7 /* Sources */,
 				2A91DC271F11FCF800DFFDC7 /* Frameworks */,
@@ -140,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = TikTokPinDrop2;
+			name = Circa;
 			productName = TikTokPinDrop2;
-			productReference = 2A91DC2A1F11FCF800DFFDC7 /* TikTokPinDrop2.app */;
+			productReference = 2A91DC2A1F11FCF800DFFDC7 /* Circa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A91DC3D1F11FCF800DFFDC7 /* TikTokPinDrop2Tests */ = {
+		2A91DC3D1F11FCF800DFFDC7 /* CircaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A91DC551F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "TikTokPinDrop2Tests" */;
+			buildConfigurationList = 2A91DC551F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "CircaTests" */;
 			buildPhases = (
 				2A91DC3A1F11FCF800DFFDC7 /* Sources */,
 				2A91DC3B1F11FCF800DFFDC7 /* Frameworks */,
@@ -158,14 +170,14 @@
 			dependencies = (
 				2A91DC401F11FCF800DFFDC7 /* PBXTargetDependency */,
 			);
-			name = TikTokPinDrop2Tests;
+			name = CircaTests;
 			productName = TikTokPinDrop2Tests;
-			productReference = 2A91DC3E1F11FCF800DFFDC7 /* TikTokPinDrop2Tests.xctest */;
+			productReference = 2A91DC3E1F11FCF800DFFDC7 /* Circa.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2A91DC481F11FCF800DFFDC7 /* TikTokPinDrop2UITests */ = {
+		2A91DC481F11FCF800DFFDC7 /* CircaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A91DC581F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "TikTokPinDrop2UITests" */;
+			buildConfigurationList = 2A91DC581F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "CircaUITests" */;
 			buildPhases = (
 				2A91DC451F11FCF800DFFDC7 /* Sources */,
 				2A91DC461F11FCF800DFFDC7 /* Frameworks */,
@@ -176,9 +188,9 @@
 			dependencies = (
 				2A91DC4B1F11FCF800DFFDC7 /* PBXTargetDependency */,
 			);
-			name = TikTokPinDrop2UITests;
+			name = CircaUITests;
 			productName = TikTokPinDrop2UITests;
-			productReference = 2A91DC491F11FCF800DFFDC7 /* TikTokPinDrop2UITests.xctest */;
+			productReference = 2A91DC491F11FCF800DFFDC7 /* Circa.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -187,11 +199,17 @@
 		2A91DC221F11FCF800DFFDC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Arul Kapoor";
 				TargetAttributes = {
 					2A91DC291F11FCF800DFFDC7 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0920;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					2A91DC3D1F11FCF800DFFDC7 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -203,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A91DC251F11FCF800DFFDC7 /* Build configuration list for PBXProject "TikTokPinDrop2" */;
+			buildConfigurationList = 2A91DC251F11FCF800DFFDC7 /* Build configuration list for PBXProject "Circa" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A91DC291F11FCF800DFFDC7 /* TikTokPinDrop2 */,
-				2A91DC3D1F11FCF800DFFDC7 /* TikTokPinDrop2Tests */,
-				2A91DC481F11FCF800DFFDC7 /* TikTokPinDrop2UITests */,
+				2A91DC291F11FCF800DFFDC7 /* Circa */,
+				2A91DC3D1F11FCF800DFFDC7 /* CircaTests */,
+				2A91DC481F11FCF800DFFDC7 /* CircaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,9 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A91DC381F11FCF800DFFDC7 /* LaunchScreen.storyboard in Resources */,
+				2A51B3421FF8702700DDA26B /* LaunchScreen.storyboard in Resources */,
 				2A91DC351F11FCF800DFFDC7 /* Assets.xcassets in Resources */,
-				2A91DC331F11FCF800DFFDC7 /* Main.storyboard in Resources */,
+				2AED204F1F1A958D00ADA6BE /* 1.mp3 in Resources */,
+				2A51B3431FF8702C00DDA26B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A91DC431F11FCF800DFFDC7 /* TikTokPinDrop2Tests.swift in Sources */,
+				2A8087061FF9DF0900A2F2C6 /* TikTokPinDrop2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A91DC4E1F11FCF800DFFDC7 /* TikTokPinDrop2UITests.swift in Sources */,
+				2A8087081FF9DF1000A2F2C6 /* TikTokPinDrop2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,31 +300,33 @@
 /* Begin PBXTargetDependency section */
 		2A91DC401F11FCF800DFFDC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A91DC291F11FCF800DFFDC7 /* TikTokPinDrop2 */;
+			target = 2A91DC291F11FCF800DFFDC7 /* Circa */;
 			targetProxy = 2A91DC3F1F11FCF800DFFDC7 /* PBXContainerItemProxy */;
 		};
 		2A91DC4B1F11FCF800DFFDC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A91DC291F11FCF800DFFDC7 /* TikTokPinDrop2 */;
+			target = 2A91DC291F11FCF800DFFDC7 /* Circa */;
 			targetProxy = 2A91DC4A1F11FCF800DFFDC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A91DC311F11FCF800DFFDC7 /* Main.storyboard */ = {
+		2A51B33E1FF866AB00DDA26B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A91DC321F11FCF800DFFDC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2A91DC361F11FCF800DFFDC7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A91DC371F11FCF800DFFDC7 /* Base */,
+				2A51B33F1FF866AB00DDA26B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2A51B3401FF866AB00DDA26B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A51B3411FF866AB00DDA26B /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,13 +340,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -347,11 +376,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -364,13 +394,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,9 +424,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,7 +441,9 @@
 				INFOPLIST_FILE = TikTokPinDrop2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arulkapoor.TikTokPinDrop2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Circa;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -412,7 +454,9 @@
 				INFOPLIST_FILE = TikTokPinDrop2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arulkapoor.TikTokPinDrop2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Circa;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -423,8 +467,8 @@
 				INFOPLIST_FILE = TikTokPinDrop2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arulkapoor.TikTokPinDrop2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTokPinDrop2.app/TikTokPinDrop2";
+				PRODUCT_NAME = Circa;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circa.app/Circa";
 			};
 			name = Debug;
 		};
@@ -435,8 +479,8 @@
 				INFOPLIST_FILE = TikTokPinDrop2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arulkapoor.TikTokPinDrop2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTokPinDrop2.app/TikTokPinDrop2";
+				PRODUCT_NAME = Circa;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circa.app/Circa";
 			};
 			name = Release;
 		};
@@ -446,7 +490,7 @@
 				INFOPLIST_FILE = TikTokPinDrop2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arulkapoor.TikTokPinDrop2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Circa;
 				TEST_TARGET_NAME = TikTokPinDrop2;
 				USES_XCTRUNNER = YES;
 			};
@@ -458,7 +502,7 @@
 				INFOPLIST_FILE = TikTokPinDrop2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = arulkapoor.TikTokPinDrop2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Circa;
 				TEST_TARGET_NAME = TikTokPinDrop2;
 				USES_XCTRUNNER = YES;
 			};
@@ -467,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A91DC251F11FCF800DFFDC7 /* Build configuration list for PBXProject "TikTokPinDrop2" */ = {
+		2A91DC251F11FCF800DFFDC7 /* Build configuration list for PBXProject "Circa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A91DC501F11FCF800DFFDC7 /* Debug */,
@@ -476,29 +520,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A91DC521F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "TikTokPinDrop2" */ = {
+		2A91DC521F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "Circa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A91DC531F11FCF800DFFDC7 /* Debug */,
 				2A91DC541F11FCF800DFFDC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2A91DC551F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "TikTokPinDrop2Tests" */ = {
+		2A91DC551F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "CircaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A91DC561F11FCF800DFFDC7 /* Debug */,
 				2A91DC571F11FCF800DFFDC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2A91DC581F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "TikTokPinDrop2UITests" */ = {
+		2A91DC581F11FCF800DFFDC7 /* Build configuration list for PBXNativeTarget "CircaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A91DC591F11FCF800DFFDC7 /* Debug */,
 				2A91DC5A1F11FCF800DFFDC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
