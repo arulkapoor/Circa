@@ -24,9 +24,9 @@ class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDe
     
     @IBAction func dSlider(_ sender: UISlider) {
         lbl.text="Sound alarm when "
-        lbl.text!+=String((100*Double(sender.value).rounded())/100)
-        x=String((100*Double(sender.value).rounded())/100)
-        lbl.text!+=" mi away."
+        lbl.text!+=String(round(10*Double(sender.value))/10)
+        x=String(round(10*Double(sender.value))/10)
+        lbl.text!+=" miles away."
     }
     
     
@@ -39,27 +39,10 @@ class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDe
         STOP.clipsToBounds = true
     }
     
-   
-    
-        
-    
-
-
-    // @IBAction func distslider(sender: UISlider) {
-        
-      //     }
     
     @IBOutlet weak var mapView: MKMapView!
     
-   /* @IBOutlet weak var stop: UIButton!
-    @IBAction func stop(sender: UIButton) {
-        audioPlayer.stop()
-        
-    }*/
-    
-    //@IBAction func PARA(sender: UIButton) {
-      //  audioPlayer.stop()
-   // }
+
     let manager = CLLocationManager()
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])

@@ -11,6 +11,7 @@
 		2A51B3431FF8702C00DDA26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51B3401FF866AB00DDA26B /* Main.storyboard */; };
 		2A8087061FF9DF0900A2F2C6 /* TikTokPinDrop2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC421F11FCF800DFFDC7 /* TikTokPinDrop2Tests.swift */; };
 		2A8087081FF9DF1000A2F2C6 /* TikTokPinDrop2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC4D1F11FCF800DFFDC7 /* TikTokPinDrop2UITests.swift */; };
+		2A80870E1FFB3CF500A2F2C6 /* circa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A80870D1FFB3CF500A2F2C6 /* circa.png */; };
 		2A91DC2E1F11FCF800DFFDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC2D1F11FCF800DFFDC7 /* AppDelegate.swift */; };
 		2A91DC301F11FCF800DFFDC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91DC2F1F11FCF800DFFDC7 /* ViewController.swift */; };
 		2A91DC351F11FCF800DFFDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A91DC341F11FCF800DFFDC7 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		2A51B33F1FF866AB00DDA26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TikTokPinDrop2/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A51B3411FF866AB00DDA26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = TikTokPinDrop2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A80870D1FFB3CF500A2F2C6 /* circa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circa.png; sourceTree = "<group>"; };
 		2A91DC2A1F11FCF800DFFDC7 /* Circa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A91DC2D1F11FCF800DFFDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A91DC2F1F11FCF800DFFDC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				2A91DC341F11FCF800DFFDC7 /* Assets.xcassets */,
 				2AED204E1F1A958D00ADA6BE /* 1.mp3 */,
 				2A91DC391F11FCF800DFFDC7 /* Info.plist */,
+				2A80870D1FFB3CF500A2F2C6 /* circa.png */,
 			);
 			name = Circa;
 			path = TikTokPinDrop2;
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A51B3421FF8702700DDA26B /* LaunchScreen.storyboard in Resources */,
+				2A80870E1FFB3CF500A2F2C6 /* circa.png in Resources */,
 				2A91DC351F11FCF800DFFDC7 /* Assets.xcassets in Resources */,
 				2AED204F1F1A958D00ADA6BE /* 1.mp3 in Resources */,
 				2A51B3431FF8702C00DDA26B /* Main.storyboard in Resources */,
