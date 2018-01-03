@@ -22,10 +22,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Click ok for the app to track your location!</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Click ok for the app to track your location!</string>
 	<key>Privacy - When In Use Usage Description</key>
 	<string>Circa</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

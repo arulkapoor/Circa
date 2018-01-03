@@ -210,6 +210,9 @@
 						DevelopmentTeam = SU7RZS288U;
 						LastSwiftMigration = 0920;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};

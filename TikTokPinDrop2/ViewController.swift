@@ -13,7 +13,7 @@ import AVFoundation
 
 class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDelegate {
 
-    
+ 
     @IBOutlet var lbl: UILabel!
     @IBOutlet var searchBarMap: UISearchBar!
     var x = "2"
@@ -78,6 +78,7 @@ class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDe
                 audioPlayer.currentTime = 0.0
                 audioPlayer.prepareToPlay()
                 audioPlayer.play()
+              //  notification()
                 
                     
             }
@@ -90,17 +91,28 @@ class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDe
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       // registerNotifications()
         //stop.hidden = true
         searchBarMap.delegate = self
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.requestWhenInUseAuthorization()
+        manager.requestAlwaysAuthorization()
         manager.startUpdatingLocation()
 
         do
         {
             let audioPath = Bundle.main.path(forResource: "1", ofType: ".mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+            
+            var audioSession = AVAudioSession.sharedInstance()
+            
+            do{
+            try audioSession.setCategory(AVAudioSessionCategoryPlayback)
+            }
+            catch{
+                
+            }
         }
         catch
         {
@@ -108,7 +120,7 @@ class ViewController: UIViewController, UISearchBarDelegate, CLLocationManagerDe
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
